@@ -95,7 +95,7 @@ class Home extends Component {
     const {posts, searchInput} = this.state
     return (
       <div>
-        {searchInput.length === 0 ? <h1>Search Results</h1> : null}
+        {searchInput.length !== 0 ? <h1>Search Results</h1> : ''}
         <ul className="posts-list-container">
           {posts.map(each => (
             <Posts each={each} key={each.postId} />
@@ -153,7 +153,7 @@ class Home extends Component {
           <Header />
           <div className="home-page-container">
             <UserStories />
-            <div className="posts-container">{this.renderPosts()}</div>
+            <div>{this.renderPosts()}</div>
           </div>
         </>
       </SearchContext.Provider>

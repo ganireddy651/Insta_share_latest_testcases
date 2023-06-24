@@ -103,6 +103,7 @@ class Posts extends Component {
             />
           ) : (
             <button
+              className="heart-btn"
               type="button"
               data-testid="likeIcon"
               onClick={() => this.likeIconClick(postId, likesCount)}

@@ -90,3 +90,8 @@
 .link {
   text-decoration: none;
 }
+.heart-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
