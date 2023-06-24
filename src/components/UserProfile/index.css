@@ -1,0 +1,151 @@
+.user-page-container {
+  background-color: #f0f3f7;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 5px 100px;
+}
+
+.user-profile-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.profile-container {
+  display: flex;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 120px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 64px;
+}
+.user-name {
+  color: #262626;
+  font-size: 32px;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 32px;
+}
+.post-follower-container {
+  display: flex;
+}
+.no-posts-and-followers {
+  color: #262626;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  margin-right: 48px;
+}
+.user-id {
+  color: #262626;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+}
+.user-bio {
+  width: 675px;
+  flex-shrink: 0;
+  color: #262626;
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 24px;
+}
+
+.stories-container {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 36px;
+}
+.story-img {
+  width: 78px;
+  height: 78px;
+  flex-shrink: 0;
+  border-radius: 78px;
+  margin-right: 40px;
+}
+
+.h-line {
+  color: red;
+}
+
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+}
+.post-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+.post-text {
+  color: #262626;
+  font-size: 24px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.post-img {
+  width: 230px;
+  height: 230px;
+  flex-shrink: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.no-post-container {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-post {
+  color: #262626;
+  font-size: 32px;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 48px;
+}
+.no-post-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.failure-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-content {
+  color: #262626;
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 24px;
+}
+
+.try-btn {
+  background-color: #4094ef;
+  color: #ffffff;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+}

@@ -1,0 +1,92 @@
+.post-card {
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  margin-bottom: 20px;
+}
+.post-header {
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.profile {
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+}
+.username {
+  color: #262626;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 18px;
+  margin-left: 10px;
+}
+.post-image {
+  width: 100%;
+  height: 614px;
+  flex-shrink: 0;
+}
+.impressions-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+.heart-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin: 5px;
+}
+.comment-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin: 5px;
+}
+.share-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin: 5px;
+}
+.likes-count {
+  margin: 0;
+  color: #262626;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 18px;
+}
+.caption {
+  color: #262626;
+  font-size: 14px;
+  font-family: 'Roboto';
+  line-height: 18px;
+}
+.created-at {
+  color: #989898;
+  font-size: 14px;
+  font-family: 'Roboto';
+  line-height: 18px;
+}
+.comment-list_container {
+  list-style: none;
+  padding-left: 0;
+}
+.comment {
+  color: #262626;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 18px;
+}
+.span-text-comment {
+  font-weight: 600;
+}
+.link {
+  text-decoration: none;
+}

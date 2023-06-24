@@ -1,0 +1,95 @@
+.app-navbar {
+  background-color: #ffffff;
+  height: 64px;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.nav-logo {
+  width: 59px;
+  height: 35px;
+  flex-shrink: 0;
+}
+.nav-heading {
+  color: #262626;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0 5px;
+}
+.nav-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-search-container {
+  width: 214px;
+  height: 28px;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-input {
+  color: #000000;
+  font-size: 12px;
+  font-family: Roboto;
+  border: none;
+  outline: none;
+  margin-left: 3px;
+  width: 100%;
+}
+.search-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 0px 2px 2px 0px;
+  background: #dbdbdb;
+  height: 28px;
+  width: 30px;
+}
+.search-icon {
+  width: 10px;
+  height: 10px;
+}
+.list-container {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.nav-items {
+  margin-left: 33px;
+}
+.item {
+  margin-right: 16px;
+  color: #262626;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 18px;
+}
+.logout-btn {
+  border-radius: 4px;
+  background: #4094ef;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  width: 86px;
+  height: 32px;
+}
+.link {
+  text-decoration: none;
+}
+@media screen and (min-width: 576px) {
+  .hamburger-icon {
+    display: none;
+  }
+}

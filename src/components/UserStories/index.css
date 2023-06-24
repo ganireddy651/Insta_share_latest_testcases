@@ -1,0 +1,79 @@
+.story-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  margin-left: 25px;
+}
+.something-went-wrong-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.something-went-wrong-image {
+  height: 200px;
+  width: 250px;
+}
+.issue-description {
+  color: #262626;
+  font-size: 32px;
+  font-family: Roboto;
+  line-height: 48px;
+}
+.Retry-btn {
+  width: 120px;
+  height: 35px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  background-color: #4094ef;
+}
+
+.slider-container {
+  width: 100%;
+}
+
+.slick-container {
+  width: 70vw;
+}
+
+.logo-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #989898;
+}
+
+.user-story-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #262626;
+  text-align: center;
+  margin-left: -20px;
+}
+
+.slick-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userName {
+  color: #262626;
+
+  font-size: 14px;
+  font-family: Roboto;
+  line-height: 24px;
+}
